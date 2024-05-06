@@ -101,7 +101,7 @@
         login_unix_socket: /var/run/mysqld/mysqld.sock
         target: /home/ubuntu/DB.sql
 
-hosts: event_reminder_server
+- hosts: event_reminder_server
   name: Deploy application
   become: true
 
