@@ -19,7 +19,7 @@ provider "openstack" {
 }
 
 resource "openstack_networking_secgroup_v2" "sg" {
-  name        = "event_reminder_sg"
+  name        = "event_reminder_sg_p"
 }
 
 resource "openstack_networking_secgroup_rule_v2" "sg_rule_ssh" {
